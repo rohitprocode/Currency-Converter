@@ -1,0 +1,33 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(230, 221, 213);
+}
+nav{
+    background-color: rgb(239, 172, 182);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    margin: 0 10px;
+}
+ul{
+    width: 100vh;
+    display: flex;
+}
+ul li{
+    margin: 0 20px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(244, 139, 155);
+    border-radius: 5px;
+}
