@@ -18,7 +18,17 @@
             <li><a href="https://www.google.com/"> Contact </a></li>
         </ul>
     </nav>
-    <div class="container"></div>
+    <div class="container">
+        <form action="/action.php" method="get">
+            <select name="country">
+                <option value="INR">Indian Rupee</option>
+                <option value="USD">US Dollar</option>
+                <option value="EURO">Euro</option>
+            </select>
+            <label><input name="terms" type="checkbox" value="tandc" />Accept terms</label> <br />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
     <footer>
         Copyright &copy; All rights reserved
     </footer>
