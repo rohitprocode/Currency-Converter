@@ -11,7 +11,7 @@ nav{
     background-color: rgb(239, 172, 182);
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
 }
 .logo{
     margin: 0 10px;
@@ -35,6 +35,12 @@ li a:hover{
 }
 .container{
     min-height: 100vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container form input[type='number']{
+    
 }
 footer{
     text-align: center;
