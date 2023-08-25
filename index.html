@@ -20,14 +20,16 @@
     </nav>
     <div class="container">
         <form action="/action.php" method="get">
+            <h1>Choose a Currency to convert</h1>
+            <label for="quantity">Choose a Quantity:</label>
+            <input type="number" name="quantity" min="1" max="10">
             <label for="Currency">Choose a Currency: </label>
             <select name="Currency">
                 <option value="INR">Indian Rupee</option>
                 <option value="USD">US Dollar</option>
                 <option value="EURO">Euro</option>
             </select>
-            <input type="number" name="quantity" min="1" max="10">
-            <input type="submit" value="Submit" />
+            <input class="btn" type="submit" value="Submit" />
         </form>
     </div>
     <footer>
