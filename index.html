@@ -22,7 +22,7 @@
         <form action="/action.php" method="get">
             <h1>Choose a Currency to convert</h1>
             <label for="InputNumber">Choose a Quantity:</label>
-            <input id="InputNumber" type="number" name="quantity" min="1" max="10">
+            <input id="InputNumber" type="number" name="quantity" min="1" max="10" placeholder="1-10">
             <label for="selectCurrency">Choose a Currency: </label>
             <select id="selectCurrency" name="Currency">
                 <option value="INR">Indian Rupee</option>
@@ -31,6 +31,35 @@
             </select>
             <input class="btn" type="submit" value="Submit" />
         </form>
+        <div class="output">
+            <h2>Here is your converted values in different currencies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Currency Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data3</td>
+                    </tr>
+                    <tr>
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data3</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <footer>
         Copyright &copy; All rights reserved
