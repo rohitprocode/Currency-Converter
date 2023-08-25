@@ -26,8 +26,16 @@ ul li{
 }
 li a{
     text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 li a:hover{
     background-color: rgb(244, 139, 155);
     border-radius: 5px;
+}
+.container{
+    min-height: 100vh;
+}
+footer{
+    text-align: center;
 }
